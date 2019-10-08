@@ -1,0 +1,165 @@
+.App {
+  color: rgb(0, 0, 0);
+  font-family: 'Fjalla One', sans-serif;
+}
+.link{
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size .5s;
+  padding: 20px;
+  text-align: center;
+}
+
+.link a{
+  color:white
+}
+
+:root {
+  --mainColor: #000;
+}
+
+.link:hover{
+
+  background-size: 4px 60px
+}
+
+.link:first-of-type{
+  margin-bottom: 0;
+}
+
+.link:last-of-type{
+  margin-top:0;
+}
+
+.Bar{
+  width: 200px;
+  height: 770px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.408);
+}
+
+
+body{
+  background-image: url("./components/images/back.jpeg");
+  background-size:100%;
+  overflow: hidden;
+}
+
+
+.Home{
+  font-size: 29px;
+  position: fixed;
+  left: 20%;
+  top:30%;
+}
+
+.space{
+  margin: 40%;
+  padding: 100px
+}
+
+.call{
+  font-size: 29px;
+  position: fixed;
+  left: 30%;
+  top:30%;
+}
+
+.proj{
+  font-size: 29px;
+  position: fixed;
+  left: 15%;
+  top:0%;
+}
+
+.info{
+  font-size: 29px;
+  position: fixed;
+  left: 20%;
+  top:30%;
+}
+
+.skill{
+  font-size: 29px;
+  position: fixed;
+  left: 20%;
+  top:0%;
+}
+
+.hot{
+  font-size: 29px;
+  position: fixed;
+  left: 30%;
+  top:0.5%;
+}
+
+
+img{
+  margin-left: 10px;
+  padding: 5px;
+  width:  250px;
+  height: 250px;
+  transition: all .2s ease-in-out;
+  border-radius: 10px;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.photo{
+  border-radius: 1%;
+  border: 1px white;
+  padding: 20px;
+  background-color: white;
+}
+.pro{
+  border-radius: 5%;
+  border: 1px white;
+  padding: 10px;
+}
+Card1{
+  width: '15rem'
+}
+
+.text1{
+  font-size: 20px;
+}
+
+.text2{
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.text3{
+  font-size: 20px;
+}
+
+.text4{
+  font-size: 20px;
+}
+
+.skill img {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.skil{
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
